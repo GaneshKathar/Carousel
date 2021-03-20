@@ -1,0 +1,56 @@
+.container{
+    height: 200px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.c-container{
+    position: relative;
+}
+
+.c-img{
+    height: 100%;
+    width: 100%;
+}
+
+.c-button{
+    cursor: pointer;
+    position: absolute;
+}
+
+.left-c-button{
+    left: 0;
+    top:50%;
+}
+
+.right-c-button{
+    right: 0;
+    top:50%;
+}
+
+.c-scroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;    
+    bottom: 20px;
+    margin: auto;
+}
+
+.c-dot{
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.c-dot-fill{
+   background-color: white;
+}
+
+.c-dot + .c-dot{
+    margin-left: 5px;
+}
